@@ -13,3 +13,8 @@ struct node
     struct node *next; // Pointer to next node
     struct node *prev; // Pointer to previous node
 };
+
+Advantages of Doubly Linked List
+A DLL can be traversed in both forward and backward direction.
+The delete operation in DLL is more efficient if pointer to the node to be deleted is given.
+We can quickly insert a new node before a given node.
